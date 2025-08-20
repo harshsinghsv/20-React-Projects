@@ -10,7 +10,7 @@ const App = () => {
       role="Frontend Developer who focuses on simplicity & usability"
       img={PFP}
       buttonText="Follow"
-      followers="285"
+      followers="288"
       following="185"
       />
       
