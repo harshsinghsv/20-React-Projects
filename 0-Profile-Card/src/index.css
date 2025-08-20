@@ -1,11 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: Jakarta;
-  src: url(/fonts/PlusJakartaSans-Regular.ttf);
-}
-
-
 @theme{
-  --font-roboto:Jakarta;
+  --font-inter: "Inter", "sans-serif";
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
 }
