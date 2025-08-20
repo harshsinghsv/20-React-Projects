@@ -1,7 +1,7 @@
 # 🚀 React Learning Journey — 20 Projects
 
 This repo is my personal journey to **master React** through 20 projects.  
-Each project focuses on a specific concept — starting with the **basics** and moving up to **full-stack apps**.  
+Each project focuses on a specific concept starting with the **basics** and moving up to **full-stack apps**.  
 
 Along the way, I’ll document each build in detail through blogs.  
 
