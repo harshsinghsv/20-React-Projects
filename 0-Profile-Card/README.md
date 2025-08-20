@@ -1,12 +1,41 @@
-# React + Vite
+# 📇 React Profile Card – A Mini Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple yet powerful demonstration of how **React components** and **props** can be used to build reusable UI elements.  
 
-Currently, two official plugins are available:
+I built a **Profile Card** that displays:
+- A profile picture
+- A name and role
+- Followers and following count
+- A call-to-action button (like “Follow”)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+At first glance it looks small, but this project actually teaches some **fundamental concepts** of React and TailwindCSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Why I Built This
+Every developer starts React by learning **components**. But simply making a counter or todo app doesn’t really show the **reusability** of components.  
+So I wanted to make something closer to real-world UI: a profile card, like the ones you see on Twitter, GitHub, or LinkedIn.
+
+This way, You get to practice:
+- Breaking UI into **components**
+- Passing **props** to make them dynamic
+- Styling with **Tailwind utility classes**
+- Using **FontAwesome icons** inside React
+
+---
+
+## 🔍 How It Works
+The `ProfileCard` component accepts props like `name`, `role`, `img`, `followers`, `following`, and `buttonText`.  
+
+This makes the card **reusable**. Instead of hardcoding details, you can generate cards for any profile just by changing the props.  
+
+Example:
+```jsx
+<ProfileCard 
+  name="Harsh"
+  role="Frontend Developer who focuses on simplicity & usability"
+  img={PFP}
+  buttonText="Follow"
+  followers="285"
+  following="185"
+/>
