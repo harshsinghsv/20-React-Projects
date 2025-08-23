@@ -31,8 +31,8 @@ export default function WeatherApp() {
 
       <div className="relative z-10 w-full max-w-md mx-auto p-6 h-[60%] rounded-4xl shadow-xl bg-white/20 backdrop-blur-md border border-white/30 overflow-hidden flex flex-col gap-2 text-white">
          
-      <div className='w-full h-[45%] rounded-4xl bg-[#8A8C8B] backdrop-blur-4xl'>
-        <div className='flex justify-center items-center gap-3 '>
+      <div className='w-full h-[45%] rounded-4xl bg-[#8A8C8B] backdrop-blur-4xl p-6 flex flex-col justify-between gap-2'>
+        <div className='flex justify-center items-center gap-3'>
           <div className='h-20 w-20'>
             🌤️
           </div>
@@ -43,6 +43,7 @@ export default function WeatherApp() {
             <h1>Delhi, India</h1>
           </div>
         </div>
+        <div className='w-full h-[30%] flex items-center justify-center text-white bg-[#172929] z-10 rounded-4xl '></div>
       </div>
 
       <div className='w-full h-[10%] bg-[#172929] text-white rounded-3xl'></div>
